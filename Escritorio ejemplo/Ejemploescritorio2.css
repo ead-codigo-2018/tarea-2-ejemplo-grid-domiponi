@@ -1,0 +1,60 @@
+
+
+
+
+.container{
+display: grid;
+grid-template-columns: 20% auto 160px;/*filas*/
+grid-template-rows: 120px 350px 120px;/*columnas*/
+margin-left: auto;/*margen*/
+margin-right: auto;/*margen*/
+max-width: 1140px; /*ancho máximo*/
+grid-gap:7px;
+ /*espacios entre cajas*/
+grid-auto-rows: minmax(120px,auto);
+
+}
+
+.caja1 {
+ /*Caracteristicas de caja1*/
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start:1;
+  grid-row-end: 2;
+  background-color:#F5B7B1;
+}
+
+.caja2 {
+  /*Caracteristicas de caja2*/
+  grid-column-start:1;
+  grid-column-end:2;
+  grid-row-start:2;
+  grid-row-end: 3;
+  background-color:#DAF7A6;
+}
+ .caja3{
+  /*Caracteristicas de caja3*/
+
+   grid-column-start:2;
+   grid-column-end:3;
+   grid-row-start:2;
+   grid-row-end: 3;
+   background-color:#FCF3CF;
+ }
+.caja4{
+ /*Caracteristicas de caja4*/
+ grid-column-start:3;
+ grid-column-end:4;
+ grid-row-start:2;
+ grid-row-end: 3;
+ background-color:#AED6F1;
+
+}
+.caja5{
+  /*Caracteristicas de caja1*/
+  grid-column-start:1;
+  grid-column-end:4;
+  grid-row-start:3;
+  grid-row-end: 4;
+  background-color:#AED6F1;
+}
